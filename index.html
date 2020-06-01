@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch The Num</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="init()">
+    <h1 onclick="showInstructions()"> Touch The Number</h1>
+  
+
+    <div class="timer">
+        Game Time:
+    </div>
+
+    <button class="easy mode" onclick="setMode(this, 16)">Easy</button>
+    <button onclick="setMode(this)" class="medium">Medium</button>
+    <button onclick="setMode(this)" class="hard">Hard</button>
+    <table cellpadding="5">
+        <tbody class="table">
+
+        </tbody>
+    </table>
+
+
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
